@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: url("./MkSui.jpg");
+
+  background-position: 0 1000px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 0 auto;
+  padding: 0 3rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}

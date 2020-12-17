@@ -1,0 +1,78 @@
+.background {
+  background-color: darkgoldenrod;
+}
+
+.landing {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: oblique;
+
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  transform: translate(-50);
+  color: rgb(83, 67, 45);
+}
+
+span {
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 30px;
+  animation: mover 6s linear infinite;
+}
+
+@keyframes mover {
+  0% {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+  }
+
+  50% {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 30);
+    transform: translateY(30px);
+  }
+  100% {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+  }
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar {
+  height: 45px;
+  background-color: rgb(95, 75, 59);
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+.loops {
+  font-size: 20px;
+  float: center;
+  margin-right: 50px;
+}
+
+.loops a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  float: right;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  float: right;
+  border: 56px black;
+  margin-right: 500px;
+  position: static;
+}
+
+img:hover {
+  opacity: 1;
+  filter: blur(5px);
+}
