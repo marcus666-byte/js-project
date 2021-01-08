@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,
+h3,
+a {
+  color: #34495e;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+  font-size: large;
+}
+
+.main-nav {
+  margin-top: 5px;
+}
+.logo a,
+.main-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+.main-nav a {
+  color: #34495e;
+  font-size: large;
+}
+
+.main-nav a:hover {
+  color: #718daa;
+}
+
+.header {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border: 1px solid #64482a;
+  background-color: #f5f29c;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+  .header,
+  .main-nav {
+    display: flex;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+    .header {
+      width: 80%;
+      margin: 0 auto;
+      max-width: 1150px;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Split the screen in half */
+.split {
+  height: 400px;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 90px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #64482a;
+  margin-top: 150px;
+  margin-left: 30px;
+  height: 40vh;
+  width: 40vh;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+.left:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.75);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #313006;
+  margin-top: 150px;
+  margin-right: 30px;
+  height: 40vh;
+  width: 40vh;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+.right:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.75);
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  height: 40vh;
+  width: 40vh;
+}
+
+.mid {
+  background-color: #dfd943;
+  margin-top: 150px;
+  height: 40vh;
+  width: 40vh;
+  margin-left: 350px;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+.mid:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.75);
+}
+
+.middle {
+  background-color: #64482a;
+  margin-top: 150px;
+  margin-left: 710px;
+  height: 40vh;
+  width: 40vh;
+  overflow-y: hidden;
+  padding: 0;
+}
+
+.middle:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.75);
+}
+
+#pic1 {
+  height: 40vh;
+  width: 40vh;
+}
+
+#pic2 {
+  height: 40vh;
+  width: 40vh;
+}
+
+#pic3 {
+  height: 40vh;
+  width: 40vh;
+}
+
+#pic4 {
+  height: 40vh;
+  width: 40vh;
+}
